@@ -163,4 +163,67 @@ body {
   color: #FFF;
 }
 
+.main-contacto {
+  display: flex;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.formulario-contacto {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  border: solid 1px rgb(69, 63, 57);
+  width: 100%;
+}
+.formulario-contacto .formulario {
+  width: 80%;
+}
+.formulario-contacto label {
+  display: block;
+  padding: 5px;
+}
+.formulario-contacto input {
+  display: block;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+}
+.formulario-contacto input:focus {
+  outline: solid 2px rgb(69, 63, 57);
+}
+.formulario-contacto textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+.formulario-contacto textarea:focus {
+  outline: solid 2px rgb(69, 63, 57);
+}
+.formulario-contacto .btn-login {
+  border: none;
+  padding: 15px 0;
+  width: 100%;
+  font-weight: bold;
+  display: block;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: rgb(69, 63, 57);
+  color: #fff;
+}
+.formulario-contacto .btn-login:hover {
+  background-color: #222;
+}
+
 /*# sourceMappingURL=style.css.map */
