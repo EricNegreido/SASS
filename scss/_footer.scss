@@ -1,0 +1,19 @@
+@import "_variables";
+
+.footer{
+    border-top:solid 1px #111;
+    height: 15vh;
+    padding-top: 1rem;
+    background-color: rgba(69, 63, 57);
+    .red{
+        i{
+            font-size: 2rem;
+        }
+    }
+    .color-nav{
+        &:hover{
+            color: $color-texto;
+        }
+        color:#111;
+    }
+}

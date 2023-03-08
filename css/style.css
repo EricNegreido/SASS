@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #aaa;
+}
+
+.header {
+  animation-name: delayNav;
+  animation-duration: 2.5s;
+}
+.header .navbar-menu {
+  background-color: rgba(69, 63, 57, 0.8);
+}
+.header .navbar {
+  background-color: rgba(69, 63, 57, 0.8);
+  height: 20vh;
+}
+.header .navbar .color-nav {
+  color: #FFF;
+}
+.header .logo img {
+  border-radius: 50%;
+  height: 15vh;
+  margin: 0;
+  padding: 0 5px;
+}
+
+@keyframes delayNav {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.img-inicio {
+  background-image: url(../img/fondo.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #FFF;
+}
+.img-inicio p {
+  font-size: 1.2rem;
+  width: 50%;
+  animation-name: delayNav;
+  animation-duration: 2.5s;
+}
+.img-inicio h1 {
+  font-size: 1.8rem;
+  width: 50%;
+  animation-name: delayNav;
+  animation-duration: 2.5s;
+}
+
+.main-principal {
+  width: 90%;
+  margin: 10px auto;
+  border: solid 1px rgba(85, 85, 85, 0.5333333333);
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.1333333333);
+  padding: 20px;
+  background-color: #ddd;
+}
+
+.carrusel .slide1 {
+  background-image: url(../img/cervezas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  text-align: center;
+  color: #000;
+  opacity: 0.9;
+  padding: 20% 0;
+}
+.carrusel .slide2 {
+  background-image: url(../img/mojitos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  text-align: center;
+  color: #000;
+  opacity: 0.9;
+  padding: 20% 0;
+}
+.carrusel .slide3 {
+  background-image: url(../img/licuados.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  text-align: center;
+  color: #000;
+  opacity: 0.9;
+  padding: 20% 0;
+}
+.carrusel h3 {
+  font-size: 3rem;
+}
+.carrusel p {
+  font-size: 1rem;
+}
+
+.sobre-nosotros {
+  width: 90%;
+  margin: 10px auto;
+  border: solid 1px rgba(85, 85, 85, 0.5333333333);
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.1333333333);
+  padding: 20px;
+  background-color: #ddd;
+}
+
+.footer {
+  border-top: solid 1px #111;
+  height: 15vh;
+  padding-top: 1rem;
+  background-color: rgb(69, 63, 57);
+}
+.footer .red i {
+  font-size: 2rem;
+}
+.footer .color-nav {
+  color: #111;
+}
+.footer .color-nav:hover {
+  color: #FFF;
+}
+
+/*# sourceMappingURL=style.css.map */
