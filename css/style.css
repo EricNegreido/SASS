@@ -288,6 +288,16 @@ body {
     width: 80%;
     margin: 5px auto;
   }
+  .main-cont .main-carta {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .main-cont .main-carta .carta-presentacion {
+    height: 45vh;
+  }
+  .main-cont .main-carta .carta-presentacion img {
+    height: 30vh;
+  }
   .main-cerveza {
     width: 80%;
     margin: 5px auto;
@@ -304,12 +314,6 @@ body {
   .main-contacto {
     width: 80%;
     margin: 5px auto;
-  }
-  .main-carta .carta-presentacion {
-    height: 45vh;
-  }
-  .main-carta .carta-presentacion img {
-    height: 30vh;
   }
   .header .navbar {
     height: 14vh;
@@ -364,6 +368,10 @@ body {
   .main-contacto {
     padding: 20px 10px;
     width: 80%;
+  }
+  .main-cont .main-carta {
+    width: 70%;
+    margin: 5px auto;
   }
 }
 
