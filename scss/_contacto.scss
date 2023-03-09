@@ -1,7 +1,7 @@
 .main-contacto {
     display: flex;
     width: 100%;
-    margin: 20px auto;
+    margin: 10px auto;
 
 }
 
@@ -11,9 +11,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 80vh;
+    height: 100vh;
     border: solid 1px rgba(69, 63, 57);
     width: 100%;
+    padding: 5px;
 
     .formulario {
         width: 80%;

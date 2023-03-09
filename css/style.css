@@ -129,7 +129,7 @@ body {
 
 .footer {
   border-top: solid 1px #111;
-  height: 15vh;
+  height: 16vh;
   padding-top: 2rem;
   background-color: rgb(69, 63, 57);
 }
@@ -145,6 +145,12 @@ body {
 
 .main-cerveza {
   padding: 5px 15px;
+  width: 90%;
+  margin: 10px auto;
+  border: solid 1px rgba(85, 85, 85, 0.5333333333);
+  border-radius: 10px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1333333333);
+  padding: 20px;
 }
 
 .img-cerveza {
@@ -166,7 +172,7 @@ body {
 .main-contacto {
   display: flex;
   width: 100%;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .formulario-contacto {
@@ -175,9 +181,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 80vh;
+  height: 100vh;
   border: solid 1px rgb(69, 63, 57);
   width: 100%;
+  padding: 5px;
 }
 .formulario-contacto .formulario {
   width: 80%;
@@ -256,6 +263,100 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 25px;
+}
+.main-carta .main-cont .text-center p {
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  * {
+    font-size: 1rem;
+  }
+  .main-principal {
+    width: 80%;
+    margin: 5px auto;
+  }
+  .sobre-nosotros {
+    width: 80%;
+    margin: 5px auto;
+  }
+  .carrusel {
+    width: 80%;
+    margin: 5px auto;
+  }
+  .main- {
+    width: 80%;
+    margin: 5px auto;
+  }
+  .main-cont {
+    width: 80%;
+    margin: 5px auto;
+  }
+  .main-cerveza {
+    width: 80%;
+    margin: 5px auto;
+  }
+  .img-contacto {
+    background-color: #212120;
+    width: 40%;
+    height: 80vh;
+  }
+  .formulario-contacto {
+    width: 60%;
+  }
+  .main-contacto {
+    width: 80%;
+    margin: auto;
+  }
+  .main-carta .carta-presentacion img {
+    height: 25vh;
+  }
+  .header .navbar {
+    height: 16vh;
+  }
+  .header .logo img {
+    height: 10vh;
+  }
+}
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+  * {
+    font-size: 1.1rem;
+  }
+  .header .navbar {
+    height: 12vh;
+  }
+  .header .logo img {
+    width: 100px;
+  }
+  .main-principal {
+    width: 60%;
+  }
+  .sobre-nosotros {
+    width: 60%;
+  }
+  .main-cerveza {
+    width: 60%;
+  }
+  .carrusel {
+    width: 60%;
+  }
+  .main-cont {
+    width: 60%;
+  }
+  .header .navbar-collapse {
+    background-color: transparent;
+  }
+  .img-contacto {
+    width: 50%;
+    height: 80vh;
+  }
+  .formulario-contacto {
+    width: 50%;
+  }
+  .main-contacto {
+    padding: 20px 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
