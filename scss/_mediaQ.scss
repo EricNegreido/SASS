@@ -23,11 +23,6 @@
 
     }
 
-    .main- {
-        @include media-tablet;
-
-    }
-
     .main-cont {
         @include media-tablet;
 
@@ -41,29 +36,31 @@
     .img-contacto {
         background-color: #212120;
         width: 40%;
-        height: 80vh;
+        height: 90vh;
     }
 
     .formulario-contacto {
         width: 60%;
+        height: 90vh;
     }
 
     .main-contacto {
         width: 80%;
-        margin: auto;
+        margin: 5px auto;
     }
 
     .main-carta {
         .carta-presentacion {
+            height: 45vh;
             img {
-                height: 25vh;
+                height: 30vh;
             }
         }
     }
 
     .header {
         .navbar {
-            height: 16vh;
+            height: 14vh;
         }
     }
 
@@ -79,28 +76,42 @@
 /* DESKTOP */
 @media screen and (min-width:992px) {
 
-    * {
-        font-size: 1.1rem;
-    }
-
-    .header{
-        .navbar {
-            height: 12vh;
-        }
-    }
-
-    .header{
-        .logo{
+    .main-carta {
+        .carta-presentacion {
+            height: 40vh;
             img {
-            width: 100px;
+                height: 25vh;
             }
         }
     }
-@each $selector in main-principal, sobre-nosotros, main-cerveza, carrusel, main-cont{
-    .#{$selector}{
-        width: 60%;
+
+    .header {
+        .navbar {
+            height: 12vh;
+            form{
+                width: 40%;
+            }
+        }
+
     }
-}
+
+    .header {
+        .logo {
+            img {
+                height: 10vh;
+            }
+        }
+    }
+
+    @each $selector in main-principal,
+    sobre-nosotros,
+    main-cerveza,
+    carrusel,
+    main-cont {
+        .#{$selector} {
+            width: 60%;
+        }
+    }
 
 
     .header {
@@ -110,15 +121,18 @@
     }
 
     .img-contacto {
-        width: 50%;
         height: 80vh;
+        width: 50%;
+
     }
 
     .formulario-contacto {
+        height: 80vh;
         width: 50%;
     }
 
     .main-contacto {
         padding: 20px 10px;
+        width: 80%;
     }
 }
