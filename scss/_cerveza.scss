@@ -25,3 +25,12 @@
     font-size: 3rem;
     color: $color-texto;
 }
+
+.img-cerveza{
+    h1{
+        @include animation();
+    }
+    p{
+        @include animation();
+    }
+}

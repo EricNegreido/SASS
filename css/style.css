@@ -169,6 +169,17 @@ body {
   color: #FFF;
 }
 
+.img-cerveza h1 {
+  width: 50%;
+  animation-name: delayNav;
+  animation-duration: 2.5s;
+}
+.img-cerveza p {
+  width: 50%;
+  animation-name: delayNav;
+  animation-duration: 2.5s;
+}
+
 .main-contacto {
   display: flex;
   width: 100%;
@@ -241,7 +252,7 @@ body {
   margin: 2px;
   border-radius: 10px;
   padding: 0;
-  border: solid 1px white;
+  border: solid 1px #fff;
   font-weight: 300;
   position: relative;
 }
@@ -280,7 +291,7 @@ body {
 }
 .main-carta .carta-presentacion a, .main-carta .carta-presentacion-salc a {
   text-decoration: none;
-  color: #fff;
+  color: #FFF;
 }
 .main-carta .carta-presentacion p, .main-carta .carta-presentacion-salc p {
   margin-top: 1rem;
