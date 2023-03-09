@@ -233,7 +233,7 @@ body {
   background-color: #222;
 }
 
-.main-carta .carta-presentacion {
+.main-carta .carta-presentacion, .main-carta .carta-presentacion-salc {
   color: #FFF;
   background: rgb(69, 63, 57);
   width: 300px;
@@ -242,30 +242,60 @@ body {
   border-radius: 10px;
   padding: 0;
   border: solid 1px white;
-  font-weight: 400px;
-  transition: all 400ms ease;
+  font-weight: 300;
+  position: relative;
 }
-.main-carta .carta-presentacion img {
+.main-carta .carta-presentacion .descripcion, .main-carta .carta-presentacion-salc .descripcion {
+  background-color: rgba(34, 34, 34, 0.7333333333);
+  font-size: 3rem;
+  font-weight: 600;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #fff;
+}
+.main-carta .carta-presentacion .descripcion li, .main-carta .carta-presentacion-salc .descripcion li {
+  list-style: none;
+  font-size: 25px;
+}
+.main-carta .carta-presentacion:hover .descripcion, .main-carta .carta-presentacion-salc:hover .descripcion {
+  display: flex;
+  transform: scale(0.9);
+}
+.main-carta .carta-presentacion:hover .img-descripcion, .main-carta .carta-presentacion-salc:hover .img-descripcion {
+  filter: brightness(0.4);
+}
+.main-carta .carta-presentacion img, .main-carta .carta-presentacion-salc img {
   width: 100%;
   height: 40vh;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  border-bottom: 1px solid #fff;
 }
-.main-carta .carta-presentacion a {
+.main-carta .carta-presentacion a, .main-carta .carta-presentacion-salc a {
   text-decoration: none;
   color: #fff;
 }
-.main-carta .carta-presentacion p {
+.main-carta .carta-presentacion p, .main-carta .carta-presentacion-salc p {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 25px;
 }
-.main-carta .carta-presentacion:hover {
-  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.6);
-  transform: translateY(-5px);
-}
 .main-carta .main-cont .text-center p {
   text-align: center;
+}
+.main-carta .carta-presentacion-salc {
+  transition: all 400ms ease;
+}
+.main-carta .carta-presentacion-salc:hover {
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.6);
+  transform: translateY(-5px);
 }
 
 @media screen and (min-width: 700px) {
@@ -292,10 +322,10 @@ body {
     width: 80%;
     margin: 10px auto;
   }
-  .main-cont .main-carta .carta-presentacion {
+  .main-cont .main-carta .carta-presentacion, .main-cont .main-carta .carta-presentacion-salc {
     height: 45vh;
   }
-  .main-cont .main-carta .carta-presentacion img {
+  .main-cont .main-carta .carta-presentacion img, .main-cont .main-carta .carta-presentacion-salc img {
     height: 30vh;
   }
   .main-cerveza {
@@ -324,10 +354,10 @@ body {
 }
 /* DESKTOP */
 @media screen and (min-width: 992px) {
-  .main-carta .carta-presentacion {
+  .main-carta .carta-presentacion, .main-carta .carta-presentacion-salc {
     height: 40vh;
   }
-  .main-carta .carta-presentacion img {
+  .main-carta .carta-presentacion img, .main-carta .carta-presentacion-salc img {
     height: 25vh;
   }
   .header .navbar {
