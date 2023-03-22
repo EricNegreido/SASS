@@ -76,6 +76,9 @@ body {
   padding: 20px;
   background-color: #eee;
 }
+.main-principal h2 {
+  font-weight: bold;
+}
 
 .carrusel .slide1 {
   background-image: url(../img/cervezas.jpg);
@@ -125,6 +128,9 @@ body {
   box-shadow: 2px 2px rgba(0, 0, 0, 0.1333333333);
   padding: 20px;
   background-color: #ddd;
+}
+.sobre-nosotros h2 {
+  font-weight: bold;
 }
 
 .footer {
@@ -185,8 +191,7 @@ body {
   width: 100%;
   margin: 10px auto;
 }
-
-.formulario-contacto {
+.main-contacto .formulario-contacto {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -197,14 +202,14 @@ body {
   width: 100%;
   padding: 5px;
 }
-.formulario-contacto .formulario {
+.main-contacto .formulario-contacto .formulario {
   width: 80%;
 }
-.formulario-contacto label {
+.main-contacto .formulario-contacto .formulario label {
   display: block;
   padding: 5px;
 }
-.formulario-contacto input {
+.main-contacto .formulario-contacto .formulario input {
   display: block;
   padding: 5px;
   width: 100%;
@@ -213,10 +218,10 @@ body {
   border: solid 1px #ccc;
   border-radius: 5px;
 }
-.formulario-contacto input:focus {
+.main-contacto .formulario-contacto .formulario input:focus {
   outline: solid 2px rgb(69, 63, 57);
 }
-.formulario-contacto textarea {
+.main-contacto .formulario-contacto .formulario textarea {
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -225,10 +230,10 @@ body {
   border-radius: 5px;
   margin: 5px;
 }
-.formulario-contacto textarea:focus {
+.main-contacto .formulario-contacto .formulario textarea:focus {
   outline: solid 2px rgb(69, 63, 57);
 }
-.formulario-contacto .btn-login {
+.main-contacto .formulario-contacto .formulario .btn-login {
   border: none;
   padding: 15px 0;
   width: 100%;
@@ -240,7 +245,7 @@ body {
   background-color: rgb(69, 63, 57);
   color: #fff;
 }
-.formulario-contacto .btn-login:hover {
+.main-contacto .formulario-contacto .formulario .btn-login:hover {
   background-color: #222;
 }
 
